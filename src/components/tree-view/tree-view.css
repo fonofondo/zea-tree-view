@@ -1,0 +1,11 @@
+:host {
+  display: block;
+  height: 100%;
+}
+
+.zea-tree-view-wrap {
+  height: 100%;
+  padding: 0.5em;
+  overflow: auto;
+  box-sizing: border-box;
+}

@@ -1,0 +1,33 @@
+:host {
+  display: block;
+}
+
+.zea-tree-item-header {
+  display: flex;
+  margin: 0.5em 0;
+}
+
+.zea-tree-item-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.5em;
+  cursor: pointer;
+}
+
+.zea-tree-item-label {
+  white-space: nowrap;
+}
+
+.zea-tree-item-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  margin: 0 0.5em;
+}
+
+.zea-tree-item-children {
+  padding-left: 1.5em;
+  border-left: 1px dotted gray;
+}
